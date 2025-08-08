@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="intro">
+        <div class="flex-new">
+        <span class="items">&nbsp;G</span>
+        <span class="items">&nbsp;U</span>
+        <span class="items">&nbsp;E</span> 
+        <span class="items">&nbsp;S</span>
+         <span class="items">&nbsp;S</span>
+
+        </div>
+        <div class="flex">
+        <span class="items">&nbsp;W</span>
+        <span class="items">&nbsp;O</span>
+        <span class="items">&nbsp;R</span>
+        <span class="items">&nbsp;D</span>
+        </div>   
+
+        <button class="play">Start</button>
+        
+    </div>
+    <div class="startScreen">
+        <div class="startContainer">
+            <ul>
+                <h2>
+                    <span>Choose&nbsp;</span>
+                    <span>difficulty&nbsp;</span>
+                    <span>level !</span>
+                </h2>
+                <li><button class="easy">Easy</button></li>
+                <li><button class="medium">Medium</button></li>
+                <li><button class="difficult">Difficult</button></li>
+            </ul>
+        </div>
+        <div class="start">
+            <button >
+               PLAY <img src="play-button.png" height="50px">
+            </button>
+        </div>
+    </div>
+    <div class="container">
+        <h1>
+            <span>Guess</span>
+            <span>the</span>
+            <span>word</span>
+        </h1>
+        <div class="hint"><p></p></div>
+        <div class="word"></div>
+        <div class="hint"><p></p></div>
+        <div class="wrongGuess"><p></p></div>
+        <button class="restart">Play Again</button>
+        <button class="check">Check</button>
+        <div class="result"><p></p></div>
+        <div class="display"><p></p></div>
+            <div class="round"></div>
+            <div class="score"></div>
+
+    </div>
+    <div class="endScreen">
+        <div class="finalScore">
+        </div>
+        <div class="playAgain"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
